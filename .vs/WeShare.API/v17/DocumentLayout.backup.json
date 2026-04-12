@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|c:\\users\\carlm\\onedrive\\desktop\\visualstudiofiles\\weshare.api\\weshare.api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|solutionrelative:weshare.api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|c:\\users\\carlm\\onedrive\\desktop\\visualstudiofiles\\weshare.api\\weshare.api\\dockerfile||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|solutionrelative:weshare.api\\dockerfile||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|c:\\users\\carlm\\onedrive\\desktop\\visualstudiofiles\\weshare.api\\weshare.api\\migrations\\20260407120609_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|solutionrelative:weshare.api\\migrations\\20260407120609_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|c:\\users\\carlm\\onedrive\\desktop\\visualstudiofiles\\weshare.api\\weshare.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{706F6092-8986-4B0A-A7BD-253FE3844329}|WeShare.API\\WeShare.API.csproj|solutionrelative:weshare.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -170,7 +182,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,7 +190,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\.gitignore",
+              "RelativeDocumentMoniker": "WeShare.API\\.gitignore",
+              "ToolTip": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\.gitignore",
+              "RelativeToolTip": "WeShare.API\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-12T11:03:15.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Dockerfile",
+              "RelativeDocumentMoniker": "WeShare.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Dockerfile",
+              "RelativeToolTip": "WeShare.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-12T10:51:39.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260407120609_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260407120609_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260407120609_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260407120609_InitialCreate.cs",
+              "RelativeToolTip": "WeShare.API\\Migrations\\20260407120609_InitialCreate.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T10:42:55.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Hubs\\ChatHub.cs",
@@ -190,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Models\\Message.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Models\\Message.cs",
@@ -202,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "20260410154516_AddCommentReplies.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260410154516_AddCommentReplies.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260410154516_AddCommentReplies.cs",
@@ -214,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "NotificationRepository.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Repositories\\NotificationRepository.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Repositories\\NotificationRepository.cs",
@@ -226,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "NotificationDTOs.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\DTOs\\NotificationDTOs.cs",
               "RelativeDocumentMoniker": "WeShare.API\\DTOs\\NotificationDTOs.cs",
@@ -238,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PostDTOs.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\DTOs\\PostDTOs.cs",
               "RelativeDocumentMoniker": "WeShare.API\\DTOs\\PostDTOs.cs",
@@ -250,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Models\\Post.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Models\\Post.cs",
@@ -262,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PostService.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Services\\PostService.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Services\\PostService.cs",
@@ -274,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "20260412044605_AddMessageReplies.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260412044605_AddMessageReplies.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260412044605_AddMessageReplies.cs",
@@ -286,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Program.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Program.cs",
@@ -299,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "20260412061319_AddPostImageUrl.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260412061319_AddPostImageUrl.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260412061319_AddPostImageUrl.cs",
@@ -311,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PostsController.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Controllers\\PostsController.cs",
@@ -323,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "20260412034422_AddMessaging.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260412034422_AddMessaging.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260412034422_AddMessaging.cs",
@@ -335,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "MessageDTOs.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\DTOs\\MessageDTOs.cs",
               "RelativeDocumentMoniker": "WeShare.API\\DTOs\\MessageDTOs.cs",
@@ -347,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MessagesController.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Controllers\\MessagesController.cs",
@@ -359,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Services\\AuthService.cs",
@@ -371,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Repositories\\PostRepository.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Repositories\\PostRepository.cs",
@@ -383,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Data\\AppDbContext.cs",
@@ -395,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Services\\NotificationService.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Services\\NotificationService.cs",
@@ -407,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Models\\Comment.cs",
@@ -419,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "20260410143630_AddNotifications.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260410143630_AddNotifications.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260410143630_AddNotifications.cs",
@@ -431,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "NotificationsController.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Controllers\\NotificationsController.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Controllers\\NotificationsController.cs",
@@ -443,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "FriendshipService.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Services\\FriendshipService.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Services\\FriendshipService.cs",
@@ -455,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AuthDTOs.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\DTOs\\AuthDTOs.cs",
               "RelativeDocumentMoniker": "WeShare.API\\DTOs\\AuthDTOs.cs",
@@ -467,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Models\\Notification.cs",
@@ -479,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Friendship.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Models\\Friendship.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Models\\Friendship.cs",
@@ -491,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Repositories\\UserRepository.cs",
@@ -503,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "PostLike.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Models\\PostLike.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Models\\PostLike.cs",
@@ -515,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Models\\User.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Models\\User.cs",
@@ -527,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "FriendshipRepository.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Repositories\\FriendshipRepository.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Repositories\\FriendshipRepository.cs",
@@ -539,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Controllers\\AuthController.cs",
@@ -551,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Services\\UserService.cs",
@@ -563,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "UserDTOs.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\DTOs\\UserDTOs.cs",
               "RelativeDocumentMoniker": "WeShare.API\\DTOs\\UserDTOs.cs",
@@ -575,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "FriendsController.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Controllers\\FriendsController.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Controllers\\FriendsController.cs",
@@ -587,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Controllers\\UsersController.cs",
@@ -599,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "FriendDTOs.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\DTOs\\FriendDTOs.cs",
               "RelativeDocumentMoniker": "WeShare.API\\DTOs\\FriendDTOs.cs",
@@ -611,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "20260409031106_AddEngagementSystem.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260409031106_AddEngagementSystem.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260409031106_AddEngagementSystem.cs",
@@ -623,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "20260407123049_AddFriendshipTable.cs",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\Migrations\\20260407123049_AddFriendshipTable.cs",
               "RelativeDocumentMoniker": "WeShare.API\\Migrations\\20260407123049_AddFriendshipTable.cs",
@@ -635,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\appsettings.json",
               "RelativeDocumentMoniker": "WeShare.API\\appsettings.json",
@@ -647,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\carlm\\OneDrive\\Desktop\\visualStudioFiles\\WeShare.API\\WeShare.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WeShare.API\\appsettings.Development.json",

@@ -20,5 +20,9 @@ ENV ASPNETCORE_URLS=http://+:7860
 
 COPY --from=build /app/publish .
 
+# HUGGING FACE FIX: I-transfer ang ownership sa User 1000 para hindi mag-crash ang database/files
+RUN chown -R 1000:1000 /app
+USER 1000
+
 # Patakbuhin ang API
 ENTRYPOINT ["dotnet", "WeShare.API.dll"]
