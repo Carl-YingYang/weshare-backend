@@ -1,0 +1,6 @@
+@WeShare.API_HostAddress = http://localhost:5215
+
+GET {{WeShare.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
