@@ -17,67 +17,36 @@ public class AppDbContext : DbContext
     public DbSet<Notification> Notifications { get; set; }
     public DbSet<Message> Messages { get; set; }
 
+
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<User>().HasIndex(u => u.Email).IsUnique();
-
-        // Friendship Configurations
+        // 1. FRIENDSHIPS
         modelBuilder.Entity<Friendship>()
-            .HasOne(f => f.Requester)
-            .WithMany()
-            .HasForeignKey(f => f.RequesterId)
-            .OnDelete(DeleteBehavior.Restrict);
-
+            .HasOne(f => f.Requester).WithMany().HasForeignKey(f => f.RequesterId).OnDelete(DeleteBehavior.Restrict);
         modelBuilder.Entity<Friendship>()
-            .HasOne(f => f.Receiver)
-            .WithMany()
-            .HasForeignKey(f => f.ReceiverId)
-            .OnDelete(DeleteBehavior.Restrict);
+            .HasOne(f => f.Receiver).WithMany().HasForeignKey(f => f.ReceiverId).OnDelete(DeleteBehavior.Restrict);
 
-        // ─────────────────────────────────────────────
-        // LIKES & COMMENTS CONFIGURATION
-        // ─────────────────────────────────────────────
-
-        // Isang beses lang pwedeng i-like ng User ang isang Post
+        // 2. POSTLIKES (Composite Key + Restrict User path)
         modelBuilder.Entity<PostLike>()
             .HasKey(pl => new { pl.PostId, pl.UserId });
 
         modelBuilder.Entity<PostLike>()
-            .HasOne(pl => pl.Post)
-            .WithMany(p => p.Likes)
-            .HasForeignKey(pl => pl.PostId)
-            .OnDelete(DeleteBehavior.Cascade); // Kung dinelete ang post, burado din ang like
+            .HasOne(pl => pl.User).WithMany().HasForeignKey(pl => pl.UserId).OnDelete(DeleteBehavior.Restrict);
 
-        modelBuilder.Entity<PostLike>()
-            .HasOne(pl => pl.User)
-            .WithMany()
-            .HasForeignKey(pl => pl.UserId)
-            .OnDelete(DeleteBehavior.Restrict);
+        // 3. MESSAGES
+        modelBuilder.Entity<Message>()
+            .HasOne(m => m.Sender).WithMany().HasForeignKey(m => m.SenderId).OnDelete(DeleteBehavior.Restrict);
+        modelBuilder.Entity<Message>()
+            .HasOne(m => m.Receiver).WithMany().HasForeignKey(m => m.ReceiverId).OnDelete(DeleteBehavior.Restrict);
+
+        // 4. COMMENTS (Crucial Fix for your error)
+        modelBuilder.Entity<Comment>()
+            .HasOne(c => c.User).WithMany().HasForeignKey(c => c.UserId).OnDelete(DeleteBehavior.Restrict); // 🚨 FIX HERE
 
         modelBuilder.Entity<Comment>()
-            .HasOne(c => c.User)
-            .WithMany()
-            .HasForeignKey(c => c.UserId)
-            .OnDelete(DeleteBehavior.Restrict);
-
-        modelBuilder.Entity<Comment>()
-            .HasOne(c => c.ParentComment)
-            .WithMany(c => c.Replies)
-            .HasForeignKey(c => c.ParentCommentId)
-            .OnDelete(DeleteBehavior.Restrict);
-
-        modelBuilder.Entity<Message>()
-            .HasOne(m => m.Sender)
-            .WithMany()
-            .HasForeignKey(m => m.SenderId)
-            .OnDelete(DeleteBehavior.Restrict);
-
-        modelBuilder.Entity<Message>()
-            .HasOne(m => m.Receiver)
-            .WithMany()
-            .HasForeignKey(m => m.ReceiverId)
-            .OnDelete(DeleteBehavior.Restrict);
+            .HasOne(c => c.ParentComment).WithMany(c => c.Replies).HasForeignKey(c => c.ParentCommentId).OnDelete(DeleteBehavior.Restrict);
     }
 }

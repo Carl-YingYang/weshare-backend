@@ -129,8 +129,17 @@ namespace WeShare.API
                 app.UseSwaggerUI();
             }
 
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
+
+            app.UseStaticFiles(); // 🚨 YOU MUST ADD THIS HERE
+
             app.UseHttpsRedirection();
             app.UseCors("AllowReactApp");
+
 
             app.UseAuthentication(); // ?? MUST BE BEFORE AUTHORIZATION (Binabasa yung Token)
             app.UseAuthorization();  // ?? (Tinitignan kung may access ka ba talaga)
