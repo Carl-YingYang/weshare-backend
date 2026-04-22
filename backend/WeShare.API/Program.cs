@@ -147,6 +147,38 @@ namespace WeShare.API
             app.MapControllers();
             app.MapHub<WeShare.API.Hubs.ChatHub>("/chathub");
 
+            // ==========================================
+            // 🚨 EMERGENCY BASE64 CLEANUP SCRIPT 🚨
+            // ==========================================
+            using (var scope = app.Services.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                var usersToFix = dbContext.Users.ToList();
+                var fixedCount = 0;
+
+                foreach (var u in usersToFix)
+                {
+                    // If the string is massive (Base64), wipe it!
+                    if (u.ProfilePicture != null && u.ProfilePicture.StartsWith("data:image"))
+                    {
+                        u.ProfilePicture = null;
+                        fixedCount++;
+                    }
+                    if (u.CoverPhoto != null && u.CoverPhoto.StartsWith("data:image"))
+                    {
+                        u.CoverPhoto = null;
+                        fixedCount++;
+                    }
+                }
+
+                if (fixedCount > 0)
+                {
+                    dbContext.SaveChanges();
+                    Console.WriteLine($"\n✅ CLEARED {fixedCount} CORRUPTED BASE64 IMAGES FROM DATABASE!\n");
+                }
+            }
+
+            // This should be the very last line in your file
             app.Run();
         }
     }

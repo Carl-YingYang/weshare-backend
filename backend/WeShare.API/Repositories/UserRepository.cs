@@ -1,6 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WeShare.API.Data;
 using WeShare.API.Models;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace WeShare.API.Repositories;
 
@@ -10,7 +13,9 @@ public interface IUserRepository
     Task<User?> GetByEmailAsync(string email);
     Task AddAsync(User user);
     Task UpdateAsync(User user);
-    Task<IEnumerable<User>> GetAllUsersAsync();
+
+    // 🚨 FIX: Removed the duplicate method and kept only GetAllAsync()
+    Task<IEnumerable<User>> GetAllAsync();
 }
 
 public class UserRepository : IUserRepository
@@ -21,7 +26,9 @@ public class UserRepository : IUserRepository
     {
         _context = context;
     }
-    public async Task<IEnumerable<User>> GetAllUsersAsync()
+
+    // 🚨 FIX: Renamed this to GetAllAsync() so it matches the interface and UserService perfectly
+    public async Task<IEnumerable<User>> GetAllAsync()
     {
         return await _context.Users.ToListAsync();
     }
